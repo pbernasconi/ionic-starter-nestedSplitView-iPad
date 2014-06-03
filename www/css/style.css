@@ -1,0 +1,18 @@
+/* Empty. Add your own CSS if you like */
+
+
+@media (min-width: 767px) {
+    .menu-content {
+        -webkit-transform: translate3d(270px, 0px, 0px) !important;
+        width: calc(100% - 270px) !important;
+    }
+
+    .menu {
+        z-index: 2 !important;
+        box-shadow: -1px 0 2px rgba(0, 0, 0, .2), 1px 0 2px rgba(0, 0, 0, .2);
+    }
+
+    .bar-header button.ion-navicon {
+        display: none;
+    }
+}
